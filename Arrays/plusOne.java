@@ -1,7 +1,7 @@
 public class plusOne {
     public static void main(String[] args) {
         int[] digits = { 9, 1, 8, 0, 9, 9 };
-        int[] result = plusOne(digits);
+        int[] result = plusOne2(digits);
 
         for (int i : result) {
             System.out.print(i + " ");
@@ -9,7 +9,7 @@ public class plusOne {
 
     }
 
-    public static int[] plusOne(int[] digits) {
+    public static int[] plusOne2(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
             if (digits[i] != 9) {
                 digits[i]++;
