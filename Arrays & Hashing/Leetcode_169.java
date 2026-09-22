@@ -9,6 +9,8 @@
 // Input: nums = [2,2,1,1,1,2,2]
 // Output: 2
 
+import java.util.*;
+
 public class Leetcode_169 {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
